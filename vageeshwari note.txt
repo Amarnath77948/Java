@@ -1,0 +1,138 @@
+'''
+#Solution - 1
+a=[]
+r=int(input())
+c=int(input())
+for i in range(r):
+    v=[]
+    for j in range(c):
+        x=int(input())
+        v.append(x)
+    a.append(v)
+print(a)
+'''
+'''
+#Solution - 2
+a=[]
+n=int(input("Enter size of matrix"))
+for i in range(n):
+    s=list(map(int,input().split()))
+    a.append(s)
+print(a)
+'''
+'''
+#printing 2d list
+a=[]
+n=int(input("Enter size of matrix"))
+for i in range(n):
+    s=list(map(int,input().split()))
+    a.append(s)
+for i in range(n):
+    for j in range(n):
+        print(a[i][j],end=" ")
+    print()
+'''
+'''
+#Transpose of a matrix
+a=[]
+n=int(input("Enter size of matrix"))
+for i in range(n):
+    s=list(map(int,input().split()))
+    a.append(s)
+for i in range(n):
+    for j in range(n):
+        print(a[j][i],end=" ")
+    print()
+'''
+'''
+#Pattern
+n=5
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+'''
+'''
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()
+'''
+'''
+*
+**
+***
+****
+*****
+'''
+'''
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print('*',end="")
+    print()
+'''
+'''
+#Left Diagonal Sum
+a=[[1,2,3],[3,4,5],[5,6,7]]
+s=0
+for i in range(3):
+    for j in range(3):
+        if(i==j):
+            s+=a[i][j]
+print(s)
+'''
+a=[[1,2,3],[3,14,55],[5,6,7]]
+s=0
+n=3
+for i in range(n):
+    for j in range(n):
+        if(i+j==n-1):
+            s+=a[i][j]
+print(s)
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
